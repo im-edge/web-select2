@@ -27,6 +27,7 @@
     },
     "require-dev": {
         "gipfl/zfdb": "^0.4",
+        "ipl/html": ">=0.8",
         "phpstan/phpstan": "^1.10",
         "phpunit/phpunit": "^10.3 || ^9.5",
         "ramsey/uuid": "^4.2",
