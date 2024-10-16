@@ -26,7 +26,7 @@
         rendered: function (ev) {
             let $container = $(ev.currentTarget);
             let _this = this;
-            $container.find('select.ruabn-select2:not(.select2-hidden-accessible)').each(function (idx, element) {
+            $container.find('select.imedge-select2:not(.select2-hidden-accessible)').each(function (idx, element) {
                 _this.initializeSelect2($(element), $container);
             });
         },

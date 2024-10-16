@@ -19,6 +19,7 @@ class SelectRemoteElement extends SelectElement
             throw new RuntimeException('SelectRemoteElement requires a Lookup');
         }
         parent::__construct($name, $attributes);
+        $this->addAttributes(['class' => 'imedge-select2']);
     }
 
     public function setValue($value)
