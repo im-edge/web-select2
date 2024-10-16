@@ -3,6 +3,7 @@
 
     const ImedgeSelect2Handler = function (icinga) {
         this.icinga = icinga;
+        this.initialize();
     };
 
     ImedgeSelect2Handler.prototype = {
