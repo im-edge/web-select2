@@ -22,6 +22,8 @@
                     $element.closest('.select2-container').find('select').select2('open');
                 }
             });
+            // We are late in the game, trigger rendered() manually
+            this.rendered({currentTarget: $('#col1')});
         },
 
         rendered: function (ev) {
